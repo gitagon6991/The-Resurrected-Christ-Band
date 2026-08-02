@@ -1,284 +1,753 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Contact — The Resurrected Christ Band</title>
 
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+<title>Contact Us | The Resurrected Christ Band</title>
 
-  <!-- Font Awesome (optional) -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-  <style>
-    .sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
-    .map-container iframe { width:100%; height:360px; border:0; }
-  </style>
+<meta name="description" content="Get in touch with The Resurrected Christ Band for ministry invitations, worship events, bookings and general enquiries.">
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+<style>
+
+.sr-only{
+position:absolute;
+width:1px;
+height:1px;
+padding:0;
+margin:-1px;
+overflow:hidden;
+clip:rect(0,0,0,0);
+white-space:nowrap;
+border:0;
+}
+
+.map-container iframe{
+width:100%;
+height:420px;
+border:0;
+border-radius:18px;
+}
+
+</style>
+
 </head>
+
 <body>
 
-<!-- ================= NAVIGATION (matching other pages) ================= -->
+<!-- ================= NAVBAR ================= -->
+
 <header>
-  <nav class="navbar" role="navigation" aria-label="Main navigation">
-    <div class="logo">
-      <!-- Update the src to your actual logo file if needed -->
-      <a href="index.html" aria-label="Home">
-        <img src="images/logo.jpg" alt="The Resurrected Christ Band logo" />
-      </a>
-      <h2 class="site-title">The Resurrected Christ Band</h2>
-    </div>
 
-    <ul class="nav-links" role="menubar">
-      <li role="none"><a role="menuitem" href="about.html">About</a></li>
-      <li role="none"><a role="menuitem" href="music.html">Music</a></li>
-      <li role="none"><a role="menuitem" href="events.html">Events</a></li>
-      <li role="none"><a role="menuitem" href="gallery.html">Gallery</a></li>
-      <li role="none"><a role="menuitem" href="news.html">News</a></li>
-      <li role="none"><a role="menuitem" aria-current="page" href="contact.html">Contact</a></li>
-    </ul>
+<nav class="navbar">
 
-    <a href="contact.html" class="nav-btn" aria-label="Contact us">Contact Us</a>
-  </nav>
+<a href="index.html" class="logo">
+
+<img src="images/logo.jpg" alt="The Resurrected Christ Band Logo">
+
+<h2>TRC Band</h2>
+
+</a>
+
+<ul class="nav-links">
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="members.html">Members</a></li>
+
+<li><a href="music.html">Music</a></li>
+
+<li><a href="events.html">Events</a></li>
+
+<li><a href="gallery.html">Gallery</a></li>
+
+<li><a href="news.html">News</a></li>
+
+<li><a class="active" href="contact.html">Contact</a></li>
+
+</ul>
+
+<a href="contact.html" class="nav-btn">
+
+Contact Us
+
+</a>
+
+<button class="hamburger" id="hamburger">
+
+<i class="fas fa-bars"></i>
+
+</button>
+
+</nav>
+
 </header>
+
+<!-- MOBILE MENU -->
+
+<div class="mobile-menu" id="mobileMenu">
+
+<a href="about.html">About</a>
+
+<a href="members.html">Members</a>
+
+<a href="music.html">Music</a>
+
+<a href="events.html">Events</a>
+
+<a href="gallery.html">Gallery</a>
+
+<a href="news.html">News</a>
+
+<a href="contact.html" class="active">Contact</a>
+
+</div>
 
 <!-- PAGE HERO -->
-<header class="page-hero" role="banner" aria-labelledby="contact-hero-title">
-  <div class="overlay" aria-hidden="true"></div>
-  <div class="hero-content">
-    <span>CONTACT US</span>
-    <h1 id="contact-hero-title">Get In Touch</h1>
-    <p>We'd love to hear from you and minister with your church or organization.</p>
-  </div>
-</header>
+
+<section class="page-hero">
+
+<div class="overlay"></div>
+
+<div class="hero-content">
+
+<span>CONTACT US</span>
+
+<h1>Let's Connect</h1>
+
+<p>
+We'd love to hear from you and worship with your church, ministry or organisation.
+</p>
+
+</div>
+
+</section>
 
 <main>
-  <!-- CONTACT INTRO -->
-  <section class="contact-intro" aria-labelledby="contact-intro-title">
+
+<!-- INTRO -->
+
+<section class="contact-intro">
+
+<div class="container">
+
+<div class="section-header">
+
+<span class="section-tag">
+
+GET IN TOUCH
+
+</span>
+
+<h2>Contact The Resurrected Christ Band</h2>
+
+</div>
+
+<p class="intro-text">
+
+Whether you would like to invite us for a worship experience,
+conference, crusade, church service, or simply have a question
+about our ministry, we'd be delighted to hear from you.
+
+</p>
+
+</div>
+
+</section>
+
+<!-- CONTACT SECTION -->
+
+<section class="contact-section">
+
+<div class="container">
+
+<div class="contact-grid">
+
+<!-- CONTACT INFO -->
+
+<div class="contact-info">
+
+<h2>Contact Information</h2>
+
+<div class="info-card">
+
+<i class="fas fa-envelope"></i>
+
+<div>
+
+<h3>Email</h3>
+
+<p>
+
+<a href="mailto:trcglobal001@gmail.com">
+
+trcglobal001@gmail.com
+
+</a>
+
+</p>
+
+</div>
+
+</div>
+
+<div class="info-card">
+
+<i class="fas fa-phone"></i>
+
+<div>
+
+<h3>Phone</h3>
+
+<p>
+
+<a href="tel:+254789002900">
+
++254 789 002 900
+
+</a>
+
+</p>
+
+</div>
+
+</div>
+
+<div class="info-card">
+
+<i class="fab fa-whatsapp"></i>
+
+<div>
+
+<h3>WhatsApp</h3>
+
+<p>
+
+<a href="https://wa.me/254789002900" target="_blank">
+
+Chat With Us
+
+</a>
+
+</p>
+
+</div>
+
+</div>
+
+<div class="info-card">
+
+<i class="fas fa-location-dot"></i>
+
+<div>
+
+<h3>Location</h3>
+
+<p>
+
+Olekasasi B<br>
+
+Ongata Rongai<br>
+
+Kajiado, Kenya
+
+</p>
+
+</div>
+
+</div>
+
+<div class="social-icons">
+
+<a href="#"><i class="fab fa-facebook-f"></i></a>
+
+<a href="#"><i class="fab fa-instagram"></i></a>
+
+<a href="#"><i class="fab fa-youtube"></i></a>
+
+<a href="#"><i class="fab fa-tiktok"></i></a>
+
+</div>
+
+</div>
+
+<!-- CONTACT FORM -->
+
+<div class="contact-form">
+
+<h2>Send Us A Message</h2>
+
+<form id="contactForm">
+
+<main>
+
+<!-- CONTACT INTRO -->
+
+<section class="contact-intro">
+
     <div class="container">
-      <div class="section-header">
-        <span class="section-tag">LET'S CONNECT</span>
-        <h2 id="contact-intro-title">Contact The Resurrected Christ Band</h2>
-      </div>
-      <p class="intro-text">
-        Whether you would like to invite us for a worship service, conference, revival, or simply have a question about our ministry, feel free to reach out.
-      </p>
-    </div>
-  </section>
 
-  <!-- CONTACT SECTION -->
-  <section class="contact-section" aria-labelledby="contact-section-title">
-    <div class="container">
-      <div class="contact-grid">
-        <!-- CONTACT DETAILS -->
-        <aside class="contact-info" aria-labelledby="contact-info-title">
-          <h2 id="contact-info-title">Contact Information</h2>
+        <div class="section-header">
 
-          <div class="info-card">
-            <i class="fas fa-envelope" aria-hidden="true"></i>
-            <div>
-              <h3>Email</h3>
-              <p><a href="mailto:trcglobal001@gmail.com">trcglobal001@gmail.com</a></p>
-            </div>
-          </div>
+            <span class="section-tag">LET'S CONNECT</span>
 
-          <div class="info-card">
-            <i class="fas fa-phone" aria-hidden="true"></i>
-            <div>
-              <h3>Phone</h3>
-              <p><a href="tel:+254789002900">+254 789 002 900</a></p>
-            </div>
-          </div>
+            <h2>Contact TRC Band</h2>
 
-          <div class="info-card">
-            <i class="fab fa-whatsapp" aria-hidden="true"></i>
-            <div>
-              <h3>WhatsApp</h3>
-              <p><a href="https://wa.me/254789002900" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a></p>
-            </div>
-          </div>
+        </div>
 
-          <div class="info-card">
-            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
-            <div>
-              <h3>Address</h3>
-              <address>
-                Olekasasi B<br>
-                Ongata Rongai<br>
-                Kajiado, Kenya
-              </address>
-            </div>
-          </div>
+        <p class="intro-text">
 
-          <nav class="social-icons" aria-label="Social media links">
-            <a href="#" aria-label="Facebook" rel="noopener noreferrer" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-            <a href="#" aria-label="Instagram" rel="noopener noreferrer" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-            <a href="#" aria-label="YouTube" rel="noopener noreferrer" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i></a>
-            <a href="#" aria-label="TikTok" rel="noopener noreferrer" target="_blank"><i class="fab fa-tiktok" aria-hidden="true"></i></a>
-            <a href="#" aria-label="X / Twitter" rel="noopener noreferrer" target="_blank"><i class="fab fa-x-twitter" aria-hidden="true"></i></a>
-          </nav>
-        </aside>
+            We'd love to hear from you. Whether you would like to invite us to minister, partner with our ministry, request prayer, or simply ask a question, our team is ready to assist you.
 
-        <!-- CONTACT FORM -->
-        <section class="contact-form" aria-labelledby="contact-form-title">
-          <h2 id="contact-form-title">Send Us a Message</h2>
-
-          <!-- IMPORTANT: set action to your server endpoint or a form processing service -->
-          <form id="contactForm" method="post" action="/contact" novalidate>
-            <div class="form-group">
-              <label for="fullName" class="sr-only">Full Name</label>
-              <input id="fullName" name="name" type="text" placeholder="Full Name" required aria-required="true" />
-            </div>
-
-            <div class="form-group">
-              <label for="email" class="sr-only">Email Address</label>
-              <input id="email" name="email" type="email" placeholder="Email Address" required aria-required="true" />
-            </div>
-
-            <div class="form-group">
-              <label for="phone" class="sr-only">Phone Number</label>
-              <input id="phone" name="phone" type="tel" placeholder="Phone Number" pattern="^\+?\d[\d\s-]{7,}$" aria-describedby="phoneHelp" />
-              <small id="phoneHelp">Include country code, e.g. +254 7xx xxx xxx</small>
-            </div>
-
-            <div class="form-group">
-              <label for="subject" class="sr-only">Subject</label>
-              <select id="subject" name="subject" required aria-required="true">
-                <option value="" disabled selected hidden>Select Subject</option>
-                <option value="booking">Book the Band</option>
-                <option value="general">General Enquiry</option>
-                <option value="prayer">Prayer Request</option>
-                <option value="partnership">Partnership</option>
-              </select>
-            </div>
-
-            <div class="form-group">
-              <label for="message" class="sr-only">Your Message</label>
-              <textarea id="message" name="message" rows="6" placeholder="Your Message" required aria-required="true"></textarea>
-            </div>
-
-            <!-- honeypot field for spam protection -->
-            <div style="display:none;">
-              <label for="hp">Leave this field empty</label>
-              <input id="hp" name="hp" type="text" tabindex="-1" autocomplete="off" />
-            </div>
-
-            <button type="submit" class="btn btn-primary">Send Message</button>
-
-            <div role="status" aria-live="polite" id="formStatus" style="margin-top:.5rem;"></div>
-          </form>
-
-          <noscript>
-            <p>JavaScript is disabled. The form will still submit to the server if your browser supports form posts.</p>
-          </noscript>
-        </section>
-      </div>
-    </div>
-  </section>
-
-  <!-- MAP -->
-  <section class="map-section" aria-labelledby="map-title">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-tag">OUR LOCATION</span>
-        <h2 id="map-title">Visit Us</h2>
-      </div>
-
-      <div class="map-container">
-        <iframe
-          title="Map showing Olekasasi B, Ongata Rongai, Kajiado, Kenya"
-          src="https://www.google.com/maps?q=Olekasasi%20B%20Ongata%20Rongai%20Kenya&output=embed"
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-          allowfullscreen>
-        </iframe>
-      </div>
-    </div>
-  </section>
-
-  <!-- MINISTRY INVITATION -->
-  <section class="booking-section" aria-labelledby="booking-title">
-    <div class="container">
-      <div class="booking-card">
-        <h2 id="booking-title">Invite Us to Minister</h2>
-        <p>
-          The Resurrected Christ Band is available for church services, worship experiences, conferences, crusades, youth meetings and other Christian events.
-          We look forward to worshipping with you.
         </p>
-        <a href="mailto:trcglobal001@gmail.com" class="btn btn-primary" rel="noopener noreferrer">Book The Band</a>
-      </div>
-    </div>
-  </section>
 
-  <!-- FAQ -->
-  <section class="contact-faq" aria-labelledby="faq-title">
+    </div>
+
+</section>
+
+
+<!-- CONTACT SECTION -->
+
+<section class="contact-section">
+
     <div class="container">
-      <div class="section-header">
-        <span class="section-tag">FAQ</span>
-        <h2 id="faq-title">Frequently Asked Questions</h2>
-      </div>
 
-      <div class="faq-item">
-        <h3>How do we invite the band?</h3>
-        <p>Contact us by email, phone or WhatsApp with your event details, and our team will respond as soon as possible.</p>
-      </div>
+        <div class="contact-grid">
 
-      <div class="faq-item">
-        <h3>Do you minister outside Kajiado?</h3>
-        <p>Yes. We are available to minister across Kenya and beyond, subject to availability.</p>
-      </div>
 
-      <div class="faq-item">
-        <h3>How can I stay updated?</h3>
-        <p>Follow our social media pages and visit our News page for the latest ministry updates.</p>
-      </div>
+            <!-- CONTACT INFORMATION -->
+
+            <div class="contact-info">
+
+                <h2>Get In Touch</h2>
+
+                <div class="info-card">
+
+                    <i class="fas fa-envelope"></i>
+
+                    <div>
+
+                        <h3>Email</h3>
+
+                        <p>
+
+                            <a href="mailto:trcglobal001@gmail.com">
+
+                                trcglobal001@gmail.com
+
+                            </a>
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="info-card">
+
+                    <i class="fas fa-phone"></i>
+
+                    <div>
+
+                        <h3>Phone</h3>
+
+                        <p>
+
+                            <a href="tel:+254789002900">
+
+                                +254 789 002 900
+
+                            </a>
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="info-card">
+
+                    <i class="fab fa-whatsapp"></i>
+
+                    <div>
+
+                        <h3>WhatsApp</h3>
+
+                        <p>
+
+                            <a href="https://wa.me/254789002900" target="_blank">
+
+                                Chat With Us
+
+                            </a>
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="info-card">
+
+                    <i class="fas fa-map-marker-alt"></i>
+
+                    <div>
+
+                        <h3>Location</h3>
+
+                        <p>
+
+                            Olekasasi B<br>
+
+                            Ongata Rongai<br>
+
+                            Kajiado, Kenya
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="social-icons">
+
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+
+                </div>
+
+            </div>
+
+
+            <!-- CONTACT FORM -->
+
+            <div class="contact-form">
+
+                <h2>Send Us A Message</h2>
+
+                <form id="contactForm">
+
+                    <div class="form-group">
+
+                        <input
+
+                            type="text"
+
+                            id="fullName"
+
+                            placeholder="Full Name"
+
+                            required>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <input
+
+                            type="email"
+
+                            id="email"
+
+                            placeholder="Email Address"
+
+                            required>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <input
+
+                            type="tel"
+
+                            id="phone"
+
+                            placeholder="Phone Number">
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <select id="subject" required>
+
+                            <option value="">Select Subject</option>
+
+                            <option>Book The Band</option>
+
+                            <option>General Enquiry</option>
+
+                            <option>Prayer Request</option>
+
+                            <option>Partnership</option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <textarea
+
+                            id="message"
+
+                            rows="6"
+
+                            placeholder="Your Message"
+
+                            required>
+
+                        </textarea>
+
+                    </div>
+
+
+                    <button type="submit" class="btn btn-primary">
+
+                        Send Message
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
     </div>
-  </section>
+
+</section>
+
+<!-- MAP -->
+
+<section class="map-section">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <span class="section-tag">OUR LOCATION</span>
+
+            <h2>Visit Us</h2>
+
+        </div>
+
+        <div class="map-container">
+
+            <iframe
+                src="https://www.google.com/maps?q=Olekasasi%20B%20Ongata%20Rongai%20Kenya&output=embed"
+                loading="lazy"
+                allowfullscreen>
+            </iframe>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- BOOK THE BAND -->
+
+<section class="booking-section">
+
+    <div class="container">
+
+        <div class="booking-card">
+
+            <h2>Invite TRC Band to Minister</h2>
+
+            <p>
+
+                We are available for church services, conferences,
+                worship experiences, youth meetings, crusades,
+                revivals and other Christian events throughout Kenya.
+
+            </p>
+
+            <a href="mailto:trcglobal001@gmail.com"
+               class="btn btn-primary">
+
+                Book The Band
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FAQ -->
+
+<section class="contact-faq">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <span class="section-tag">FAQ</span>
+
+            <h2>Frequently Asked Questions</h2>
+
+        </div>
+
+
+        <div class="faq-item">
+
+            <h3>How do I invite the band?</h3>
+
+            <p>
+
+                Contact us by phone, WhatsApp or email with your event
+                details and our team will respond as soon as possible.
+
+            </p>
+
+        </div>
+
+
+        <div class="faq-item">
+
+            <h3>Do you minister outside Kajiado?</h3>
+
+            <p>
+
+                Yes. We minister throughout Kenya and are open to
+                invitations from churches and Christian organizations.
+
+            </p>
+
+        </div>
+
+
+        <div class="faq-item">
+
+            <h3>How can I stay updated?</h3>
+
+            <p>
+
+                Follow our social media pages and regularly visit
+                our News page for the latest ministry updates.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CTA -->
+
+<section class="about-cta">
+
+    <div class="container">
+
+        <h2>Let's Worship Together</h2>
+
+        <p>
+
+            Whether you need a worship team for your next church
+            service, conference or gospel event, we'd be honoured
+            to minister alongside you.
+
+        </p>
+
+        <a href="mailto:trcglobal001@gmail.com"
+           class="btn btn-primary">
+
+            Contact Us Today
+
+        </a>
+
+    </div>
+
+</section>
+
 </main>
 
-<!-- Structured Data (update URL and details if needed) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "The Resurrected Christ Band",
-  "url": "https://your-site.example/",
-  "email": "trcglobal001@gmail.com",
-  "telephone": "+254789002900",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Olekasasi B",
-    "addressLocality": "Ongata Rongai",
-    "addressRegion": "Kajiado",
-    "addressCountry": "KE"
-  },
-  "contactPoint": [{
-    "@type": "ContactPoint",
-    "telephone": "+254789002900",
-    "contactType": "Bookings"
-  }]
-}
-</script>
 
-<!-- Client-side form helper (optional) -->
+<!-- FOOTER -->
+
+<footer class="site-footer">
+
+    <div class="container">
+
+        <div class="footer-bottom">
+
+            <p>
+
+                &copy; 2026 The Resurrected Christ Band.
+                All Rights Reserved.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- MOBILE MENU -->
+
 <script>
-  (function () {
-    var form = document.getElementById('contactForm');
-    var status = document.getElementById('formStatus');
 
-    form.addEventListener('submit', function (e) {
-      if (document.getElementById('hp').value !== '') {
-        e.preventDefault();
-        status.textContent = 'Spam check failed.';
-        return;
-      }
-      status.textContent = 'Sending…';
-      // Optional: turn this into AJAX to handle success/error without reload.
+const menuToggle = document.querySelector(".menu-toggle");
+const navLinks = document.querySelector(".nav-links");
+
+menuToggle.addEventListener("click", () => {
+
+    navLinks.classList.toggle("active");
+
+    menuToggle.classList.toggle("active");
+
+});
+
+
+document.querySelectorAll(".nav-links a").forEach(link => {
+
+    link.addEventListener("click", () => {
+
+        navLinks.classList.remove("active");
+
+        menuToggle.classList.remove("active");
+
     });
-  })();
+
+});
+
 </script>
+
 </body>
-</html>
+</html>  
+  
