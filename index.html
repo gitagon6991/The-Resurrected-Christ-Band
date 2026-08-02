@@ -58,6 +58,10 @@
    <a href="contact.html" class="nav-btn">
     Contact Us
    </a>
+
+    <div class="menu-toggle">
+        <i class="fas fa-bars"></i>
+    </div>
     
 </nav>
 
@@ -566,6 +570,15 @@ Nairobi, Kenya
 </div>
 
 </footer>
+
+    <script>
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navLinks = document.querySelector(".nav-links");
+        
+        menuToggle.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+        });
+</script>
 
 </body>
 
