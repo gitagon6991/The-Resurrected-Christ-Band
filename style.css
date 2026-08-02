@@ -658,29 +658,22 @@ section{
 }
 
 .modal-content{
-
-    width:100%;
-    max-width:720px;
-
-    background:#fff;
-
-    border-radius:22px;
-
-    overflow:hidden;
-
-    position:relative;
-
-    animation:popUp .35s ease;
-
-    box-shadow:0 30px 80px rgba(0,0,0,.45);
-
+        width:100%;
+        max-width:720px;
+        background:#fff;
+        border-radius:22px;
+        max-height:90vh;
+        overflow-y:auto;    
+        position:relative;
+        animation:popUp .35s ease;
+        box-shadow:0 30px 80px rgba(0,0,0,.45);
 }
 
 /* Top Cover */
 
 .modal-cover{
 
-    height:180px;
+    height:120px;
 
     background:linear-gradient(135deg,#111,#333);
 
@@ -697,18 +690,12 @@ section{
 }
 
 .modal-profile img{
-
-    width:150px;
-
-    height:150px;
-
-    border-radius:50%;
-
-    object-fit:cover;
-
-    border:6px solid white;
-
-    box-shadow:0 15px 35px rgba(0,0,0,.25);
+        width:120px;
+        height:120px;
+        border-radius:50%;
+        object-fit:cover;
+        border:6px solid white;
+        box-shadow:0 15px 35px rgba(0,0,0,.25);
 
 }
 
@@ -716,8 +703,7 @@ section{
 
 .modal-body{
 
-    padding:30px 45px 45px;
-
+    padding:25px 35px 35px;
     text-align:center;
 
 }
@@ -789,35 +775,20 @@ section{
 /* Close Button */
 
 .close-modal{
-
-    position:absolute;
-
-    top:18px;
-
-    right:22px;
-
-    width:42px;
-
-    height:42px;
-
-    border-radius:50%;
-
-    background:rgba(255,255,255,.15);
-
-    color:white;
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-    cursor:pointer;
-
-    font-size:28px;
-
-    transition:.3s;
-
+        position:sticky;
+        top:15px; 
+        margin-left:auto;
+        margin-right:15px;
+        z-index:999;
+        width:42px;
+        height:42px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        border-radius:50%;
+        background:rgba(0,0,0,.55);
+        color:white;
+        cursor:pointer;
 }
 
 .close-modal:hover{
@@ -1717,6 +1688,54 @@ width:100%;
 justify-content:center;
 
 }
+
+@media (max-width:768px){
+
+    .modal-content{
+
+        width:95%;
+        max-height:95vh;
+
+    }
+
+    .modal-cover{
+
+        height:90px;
+
+    }
+
+    .modal-profile{
+
+        margin-top:-55px;
+
+    }
+
+    .modal-profile img{
+
+        width:95px;
+        height:95px;
+
+    }
+
+    .modal-body{
+
+        padding:20px;
+
+    }
+
+    .modal-body h2{
+
+        font-size:28px;
+
+    }
+
+    .modal-body h4{
+
+        font-size:16px;
+
+    }
+
+}        
 
 /* Responsive 16:9 iframe wrapper */
 .video-wrapper {
