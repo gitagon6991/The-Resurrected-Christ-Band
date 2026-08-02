@@ -275,7 +275,6 @@ header{
 
 }
 
-
 /*===============================
             HERO
 ================================*/
@@ -1557,7 +1556,7 @@ header.sticky{
 
     display:none;
 
-    font-size:30px;
+    font-size:28px;
 
     color:white;
 
@@ -1595,23 +1594,49 @@ font-size:58px;
 
 @media(max-width:768px){
 
-.nav-links{
-
-display:none;
-
-}
-
-.nav-btn{
-
-display:none;
-
+.navbar{
+    position:relative;
 }
 
 .menu-toggle{
+    display:block;
+}
 
-display:block;
+.nav-btn{
+    display:none;
+}
+
+.nav-links{
+
+    display:none;
+
+    position:absolute;
+
+    top:100%;
+
+    left:0;
+
+    width:100%;
+
+    background:#111118;
+
+    flex-direction:column;
+
+    gap:25px;
+
+    text-align:center;
+
+    padding:30px;
+
+    align-items:center;
+        z-index:999;   
+        box-shadow:0 15px 30px rgba(0,0,0,.4);
 
 }
+
+.nav-links.active{
+    display:flex;
+}        
 
 .hero{
 
