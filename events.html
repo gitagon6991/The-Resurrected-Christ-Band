@@ -33,36 +33,39 @@
 
     <div class="logo">
 
-        <img src="images/logo.jpg" alt="logo">
+        <img src="images/logo.jpg" alt="TRCB Logo">
 
-        <h2>The Resurrected Christ Band</h2>
+        <h2>TRCB</h2>
 
+    </div>
+
+    <div class="menu-toggle" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i>
     </div>
 
     <ul class="nav-links">
 
-       <li><a href="about.html">About</a></li>
+        <li><a href="index.html">Home</a></li>
 
-    <li><a href="music.html">Music</a></li>
+        <li><a href="about.html">About</a></li>
 
-    <li><a href="events.html">Events</a></li>
+        <li><a href="music.html">Music</a></li>
 
-    <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
 
-    <li><a href="news.html">News</a></li>
+        <li><a href="news.html">News</a></li>
 
-    <li><a href="contact.html">Contact</a></li>
+        <li><a href="members.html">Members</a></li>
+
+        <li><a href="contact.html">Contact</a></li>
 
     </ul>
 
-   <a href="contact.html" class="nav-btn">
-    Contact Us
-   </a>
-    
+    <a href="contact.html" class="nav-btn">
+        Contact Us
+    </a>
+
 </nav>
-
-</header>
-
 
 <!-- PAGE HERO -->
 
@@ -82,6 +85,7 @@
 
 </section>
 
+</header>
 
 
 <!-- INTRO -->
@@ -348,7 +352,79 @@ Contact Us
 </div>
 
 </section>
+    
+<!-- FOOTER -->
 
+<footer>
 
+    <div class="container">
+
+        <div class="footer-content">
+
+            <div>
+
+                <h4>The Resurrected Christ Band</h4>
+
+                <p>
+                    Raising voices in worship and glorifying Jesus Christ through music ministry.
+                </p>
+
+            </div>
+
+            <div>
+
+                <h4>Quick Links</h4>
+
+                <ul>
+
+                    <li><a href="index.html">Home</a></li>
+
+                    <li><a href="about.html">About</a></li>
+
+                    <li><a href="members.html">Members</a></li>
+
+                    <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+            <div>
+
+                <h4>Follow Us</h4>
+
+                <div class="social-links">
+
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>&copy; 2025 The Resurrected Christ Band. All rights reserved.</p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+     <script>
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navLinks = document.querySelector(".nav-links");
+        
+        menuToggle.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+        });
+</script>
+    
 </body>
 </html>
