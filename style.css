@@ -359,6 +359,22 @@ header{
 
 }
 
+.page-hero{
+
+    min-height:70vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:
+        linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.82)),
+        url(images/members-banner.jpg) center/cover;
+
+}
+
 
 /*===============================
             BUTTONS
