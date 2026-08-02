@@ -5,8 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>The Resurrected Christ Band</title>
-
      <title>About Us - The Resurrected Christ Band</title>
     
     <meta name="description" content="Learn about The Resurrected Christ Band - A gospel music ministry from Kajiado, Kenya, revealing Jesus Christ through worship and praise music.">
@@ -47,18 +45,43 @@
     
     <!-- NAVIGATION HEADER -->
     <header>
-        <nav class="navbar">
-            <div class="logo">
-                <img src="images/logo.png" alt="The Resurrected Christ Band Logo">
-                <h2>TRCB</h2>
-            </div>
-            <div class="nav-links">
-                <a href="index.html" aria-label="Go to home page">Home</a>
-                <a href="about.html" aria-label="Current page: About" aria-current="page">About</a>
-                <a href="contact.html" aria-label="Go to contact page">Contact</a>
-            </div>
-            <a href="contact.html" class="btn nav-btn" aria-label="Book the band for your event">Book Us</a>
-        </nav>
+       <nav class="navbar">
+
+    <div class="logo">
+
+         <a href="index.html">
+             
+             <img src="images/logo.jpg" alt="The Resurrected Christ Band Logo">
+         
+         </a>    
+
+        <h2>The Resurrected Christ Band</h2>
+
+    </div>
+
+    <ul class="nav-links">
+
+        <li><a href="index.html">Home</a></li>
+
+        <li><a href="music.html">Music</a></li>
+
+        <li><a href="events.html">Events</a></li>
+
+        <li><a href="gallery.html">Gallery</a></li>
+
+        <li><a href="news.html">News</a></li>
+
+        <li><a href="contact.html">Contact</a></li>
+
+    </ul>
+
+    <a href="contact.html" class="nav-btn">
+
+        Contact Us
+
+    </a>
+
+</nav>
     </header>
     
     <!-- MAIN CONTENT -->
@@ -90,7 +113,7 @@
             <div class="about-grid">
 
                 <div>
-                    <img src="images/about-band.jpg" alt="The Resurrected Christ Band performing at Mount Olives Worship Sanctuary">
+                    <img src="images/about.jpg" alt="The Resurrected Christ Band performing at Mount Olives Worship Sanctuary">
                 </div>
 
                 <div>
@@ -215,40 +238,52 @@
                 <h2>Our Ministry Team</h2>
             </div>
 
-            <div class="member-grid">
+           <div class="member-grid">
 
                 <!-- Daisy Ivans -->
-                <div class="member-card">
-                    <img src="images/members/daisy.jpg" alt="Daisy Ivans - Founder and Vocalist">
+                <div class="member-card" onclick="openModal('daisyModal')">
+                    <img src="images/members/img_9_daisy_evans.jpg" alt="Daisy Ivans - Founder and Vocalist">
                     <h3>Daisy Ivans</h3>
                     <h4>Founder • Vocalist • Chairperson</h4>
-                    <p>Founder of The Resurrected Christ Band and passionate worship leader dedicated to raising a generation that glorifies Jesus.</p>
+                    <p>Vocalist, keyboardist, entrepreneur who is passionate about using music as a platform to proclaim the Gospel of Jesus Christ.</p>
                 </div>
-
+            
                 <!-- Anthony Otieno -->
-                <div class="member-card">
-                    <img src="images/members/anthony.jpg" alt="Anthony Otieno - Drummer">
+                <div class="member-card" onclick="openModal('anthonyModal')">
+                    <img src="images/members/img_4_drummer.jpg" alt="Anthony Otieno - Drummer">
                     <h3>Anthony Otieno</h3>
                     <h4>Drummer</h4>
                     <p>Passionate about keeping the rhythm of worship alive and leading the band's percussive foundation with excellence.</p>
                 </div>
-
-                <!-- Aaron Katoo -->
-                <div class="member-card">
-                    <img src="images/members/aaron.jpg" alt="Aaron Katoo - Keyboardist">
-                    <h3>Aaron Katoo</h3>
-                    <h4>Keyboardist</h4>
-                    <p>Dedicated musician creating harmonious melodies that enhance our worship experience and glorify God.</p>
+            
+                <!-- Patrick Migici Mwangi -->
+                <div class="member-card" onclick="openModal('patrickModal')">
+                    <img src="images/members/img_2_patrick.jpg" alt="Patrick Migici Mwangi - Saxophonist">
+                    <h3>Patrick Migici Mwangi</h3>
+                    <h4>Saxophonist</h4>
+                    <p>Passionate gospel saxophonist dedicated to glorifying God through the gift of music.</p>
                 </div>
-
+            
                 <!-- Richard Wekesa -->
-                <div class="member-card">
-                    <img src="images/members/richard.jpg" alt="Richard Wekesa - Lead Guitarist">
+                <div class="member-card" onclick="openModal('richardModal')">
+                    <img src="images/members/img_3_richard.jpg" alt="Richard Wekesa - Lead Guitarist">
                     <h3>Richard Wekesa</h3>
                     <h4>Lead Guitarist</h4>
                     <p>Skilled guitarist whose passion for music ministry brings vibrant energy to every performance and worship session.</p>
                 </div>
+               
+           </div>
 
+            <div class="center">
+                
+                <a href="members.html" class="btn btn-primary">
+                    
+                    View All Members
+                    
+                    <i class="fa-solid fa-arrow-right"></i>
+                
+                </a>
+            
             </div>
 
         </div>
@@ -303,7 +338,152 @@
 
     </main>
 
+    <!-- MODALS -->
 
+    <div id="daisyModal" class="member-modal">
+
+    <span class="close-modal" onclick="closeModal('daisyModal')">&times;</span>
+
+    <div class="modal-content">
+
+        <div class="modal-header">
+            <img src="images/members/img_9_daisy_evans.jpg" alt="Daisy Ivans">
+        </div>
+
+        <div class="modal-body">
+
+            <h2>Daisy Ivans</h2>
+
+            <h4>Founder • Vocalist • Keyboardist</h4>
+
+            <p>
+                Daisy Ivans is a gifted vocalist, keyboardist, entrepreneur and
+                student at Africa Nazarene University. As the founder of
+                The Resurrected Christ Band, established in January 2024,
+                she is passionate about using music as a platform to proclaim
+                the Gospel of Jesus Christ.
+
+                Daisy is dedicated to raising a generation of worshippers,
+                psalmists and ministers who faithfully serve God's purpose
+                both locally and globally. Through visionary leadership,
+                she continues to inspire others to pursue excellence in ministry
+                while revealing the transforming love of Christ.
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+    <div id="anthonyModal" class="member-modal">
+
+    <span class="close-modal" onclick="closeModal('anthonyModal')">&times;</span>
+
+    <div class="modal-content">
+
+        <div class="modal-header">
+            <img src="images/members/img_4_drummer.jpg" alt="Anthony Otieno">
+        </div>
+
+        <div class="modal-body">
+
+            <h2>Anthony Otieno</h2>
+
+            <h4>Drummer</h4>
+
+            <p>
+                Anthony Otieno is a passionate drummer committed to using
+                music to glorify God and inspire people through worship.
+
+                With a heart for excellence and faithful service,
+                he brings energy, creativity and precision to every performance.
+
+                Whether ministering during church services,
+                concerts or community outreach events,
+                Anthony believes drumming is more than rhythm.
+                It is an opportunity to support worship and lead people
+                into God's presence through music.
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+    <div id="patrickModal" class="member-modal">
+
+    <span class="close-modal" onclick="closeModal('patrickModal')">&times;</span>
+
+    <div class="modal-content">
+
+        <div class="modal-header">
+            <img src="images/members/img_2_patrick.jpg" alt="Patrick Migici Mwangi">
+        </div>
+
+        <div class="modal-body">
+
+            <h2>Patrick Migici Mwangi</h2>
+
+            <h4>Saxophonist</h4>
+
+            <p>
+                Patrick Migici Mwangi is a passionate gospel saxophonist
+                dedicated to glorifying God through the gift of music.
+
+                Through the rich, expressive sound of the saxophone,
+                he creates moments of praise, encouragement
+                and spiritual reflection.
+
+                Whether serving during worship services,
+                gospel concerts or ministry events,
+                Patrick believes every melody should point people to Christ
+                and create an atmosphere where lives are touched by God's presence.
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+    <div id="richardModal" class="member-modal">
+
+    <span class="close-modal" onclick="closeModal('richardModal')">&times;</span>
+
+    <div class="modal-content">
+
+        <div class="modal-header">
+            <img src="images/members/img_3_richard.jpg" alt="Richard Wekesa">
+        </div>
+
+        <div class="modal-body">
+
+            <h2>Richard Wekesa</h2>
+
+            <h4>Instrumentalist</h4>
+
+            <p>
+                Richard Wekesa is a devoted musician with a deep passion
+                for Christian music and worship ministry.
+
+                Gifted in lead guitar, bass guitar,
+                piano and auxiliary keys,
+                he brings versatility to every worship experience.
+
+                Richard believes music is a powerful tool for sharing
+                the message of Christ's salvation,
+                encouraging believers
+                and glorifying God through authentic worship.
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+    
     <!-- FOOTER -->
     <footer>
         <div class="container">
@@ -334,6 +514,43 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        function openModal(modalId) {
+            document.getElementById(modalId).style.display = "flex";
+            document.body.style.overflow = "hidden";
+        }
+        
+        function closeModal(modalId) {
+            document.getElementById(modalId).style.display = "none";
+            document.body.style.overflow = "auto";
+        }
+        
+        // Close modal when clicking outside the content
+        window.onclick = function(event) {
+            const modals = document.querySelectorAll(".member-modal");
+        
+            modals.forEach(function(modal) {
+                if (event.target === modal) {
+                    modal.style.display = "none";
+                    document.body.style.overflow = "auto";
+                }
+            });
+        };
+        
+        // Close modal with the Escape key
+        document.addEventListener("keydown", function(event) {
+            if (event.key === "Escape") {
+                const modals = document.querySelectorAll(".member-modal");
+        
+                modals.forEach(function(modal) {
+                    modal.style.display = "none";
+                });
+        
+                document.body.style.overflow = "auto";
+            }
+        });
+    </script>
     
 </body> 
     
