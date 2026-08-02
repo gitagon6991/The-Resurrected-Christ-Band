@@ -656,6 +656,31 @@ section{
 
 }
 
+.member-info{
+    padding:20px;
+}
+
+.member-info h4{
+    color:var(--primary);
+    margin:10px 0 15px;
+    font-size:15px;
+}
+
+.member-info p{
+    margin-bottom:20px;
+}
+
+.read-profile{
+    color:var(--primary);
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.member-card:hover .read-profile{
+    letter-spacing:1px;
+}
+
 /*==========================
       PREMIUM MODALS
 ===========================*/
